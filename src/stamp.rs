@@ -46,6 +46,6 @@ impl BuildStamp {
     pub fn build_time(&self) -> SystemTime {
         SystemTime::UNIX_EPOCH
             + Duration::from_secs(self.build_time_seconds)
-            + Duration::from_secs(self.build_time_nanos)
+            + Duration::from_nanos(self.build_time_nanos)
     }
 }

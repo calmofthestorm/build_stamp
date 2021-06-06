@@ -39,7 +39,7 @@ pub const BUILD_STAMP: build_stamp::BuildStamp = build_stamp::BuildStamp{{
             clean,
             git_status,
             epoch.as_secs(),
-            epoch.as_nanos(),
+            epoch.subsec_nanos(),
         )
         .as_bytes(),
     )
