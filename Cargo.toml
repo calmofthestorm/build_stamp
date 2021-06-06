@@ -3,5 +3,7 @@ name = "build_stamp"
 version = "1.0.0"
 authors = ["Alex Roper <alex@aroper.net>"]
 edition = "2018"
+description = "Make build time, git revision, etc available to Rust binaries at runtime."
+license = "Apache-2.0"
 
 [dependencies]
