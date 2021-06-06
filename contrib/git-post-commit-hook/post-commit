@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Change build.rs so Cargo re-runs it and it notices that the working directory
+# may now be clean.
+touch build.rs
